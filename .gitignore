@@ -1,2 +1,3 @@
 # Ignore macOS metadata directories
 __MACOSX/
+.vscode/
