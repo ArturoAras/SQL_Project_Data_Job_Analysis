@@ -19,6 +19,12 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 
 - **project_sql/**: Contains the analysis queries (see details below)
 
+## Tools I Used
+- **SQL**: the main tool. Allowing me to build the queries to extract the information from the database.
+- **PostgreSQL**: the chosen database management system.
+- **Visual Studio Code**: used for excecute my SQL queries.
+- **Git & GitHub**: essential for version control and share my queries and analytics.
+
 ## SQL Queries
 
 ### Q1: Top Paying Data Analyst Jobs
