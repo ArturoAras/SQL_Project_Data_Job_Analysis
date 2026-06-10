@@ -7,7 +7,7 @@
 */
 
 SELECT 
-    DISTINCT UPPER(sd.skills),
+    DISTINCT UPPER(sd.skills) AS skills,
     TRUNC(AVG(JPF.salary_year_avg), 2) AS avg_salary_per_skill
 FROM skills_dim sd
 LEFT JOIN skills_job_dim sjd ON sjd.skill_id = sd.skill_id
@@ -20,5 +20,5 @@ GROUP BY
     sd.skills, sd.skill_id
 ORDER BY
     avg_salary_per_skill DESC
-
+LIMIT 10
 

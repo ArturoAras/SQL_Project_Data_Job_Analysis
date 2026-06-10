@@ -34,6 +34,8 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 - Helps understand what the best-paying opportunities are for Data Analysts
 - Shows salary expectations in the field
 
+![Top paying jobs](assets/q1_top_paying_jobs.png)
+
 ---
 
 ### Q2: Top Paying Job Skills
@@ -49,6 +51,8 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 - Tells you what skills are most important for high-paying positions
 - Helps you understand what to learn to get better jobs
 
+![Top paying job skills](assets/q2_top_paying_job_skills.png)
+
 ---
 
 ### Q3: Top Demanded Skills
@@ -60,9 +64,21 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 - Counts how many times each skill appears in job listings
 - Shows results in uppercase for clarity
 
+
 **Why it's useful:**
 - Shows which skills are most popular in the job market
 - Helps you know what most companies are looking for
+
+**Expected results:**
+
+| SKILL NAME | DEMAND  |
+| :--- | :---: |
+| SQL  | 24099   |
+| EXCEL | 15154 |
+| PYTHON | 14246 |
+| TABLEAU | 12112 |
+| POWER BI | 10156 |
+
 
 ---
 
@@ -78,6 +94,21 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 **Why it's useful:**
 - Helps identify which skills lead to higher salaries
 - Guides your learning decisions based on earning potential
+
+**Expected results:**
+
+| SKILL | AVG SALARY  |
+| :--- | :---: |
+| SVN  | 400000   |
+| SOLIDITY | 179000 |
+| COUCHBASE | 160515 |
+| DATAROBOT | 155485 |
+| GOLANG | 155000 |
+| MXNET  | 149000   |
+| DPLYR | 147633 |
+| VMWARE | 147500 |
+| TERRAFORM | 146733 |
+| TWILIO | 138500 |
 
 ---
 
@@ -96,6 +127,10 @@ This project analyzes data about job postings for Data Analysts. It uses SQL que
 - Identifies the "best" skills to learn for a Data Analyst career
 - Balances popularity with earning potential
 - Helps you focus your learning on skills that matter most
+
+![Jobs per skill](assets/q5_jobs_per_skill.png)
+![Average salary per skill](assets/q5_avg_salary_per_skill.png)
+
 
 ---
 
